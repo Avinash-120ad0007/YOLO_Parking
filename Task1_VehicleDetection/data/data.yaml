@@ -1,0 +1,8 @@
+names:
+- space-empty
+- space-occupied
+nc: 2
+path: /teamspace/studios/this_studio/Task1_VehicleDetection/data
+test: test/images
+train: train/images
+val: valid/images

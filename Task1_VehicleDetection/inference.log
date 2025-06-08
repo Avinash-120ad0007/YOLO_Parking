@@ -1,0 +1,10 @@
+2025-06-08 16:26:59,670 - INFO - Loading model from: /teamspace/studios/this_studio/Task1_VehicleDetection/runs/train/parking_detection/weights/best.pt
+2025-06-08 16:26:59,840 - INFO - ✅ Model loaded successfully
+2025-06-08 16:26:59,840 - INFO - Detector initialized with confidence threshold: 0.5
+2025-06-08 16:26:59,841 - INFO - Processing image: /teamspace/studios/this_studio/test_image.jpg
+2025-06-08 16:27:02,390 - INFO - Result saved to: result.jpg
+2025-06-08 16:27:02,390 - INFO - Detection Results:
+2025-06-08 16:27:02,390 - INFO -   Total Vehicles: 4
+2025-06-08 16:27:02,390 - INFO -   Empty Spaces: 96
+2025-06-08 16:27:02,390 - INFO -   Occupied Spaces: 4
+2025-06-08 16:27:02,391 - INFO -   Inference Time: 2.530s

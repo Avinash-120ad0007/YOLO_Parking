@@ -1,0 +1,40 @@
+2025-06-08 15:16:28,612 - INFO - Starting Parking Space Detection Training
+2025-06-08 15:16:28,612 - ERROR - Dataset config not found: C:\Users\DELL\Desktop\Slabs\Task1_VehicleDetection\data\data.yaml
+2025-06-08 15:16:28,612 - INFO - Please run data_preprocessing.py first!
+2025-06-08 15:16:28,612 - ERROR - Training failed!
+2025-06-08 15:17:19,751 - INFO - Starting Parking Space Detection Training
+2025-06-08 15:17:19,751 - INFO - Initialized trainer with model: yolov8n.pt
+2025-06-08 15:17:19,751 - INFO - PyTorch version: 2.7.0+cu128
+2025-06-08 15:17:19,778 - INFO - GPU Available: True
+2025-06-08 15:17:19,796 - INFO - GPU Device: Tesla T4
+2025-06-08 15:17:19,796 - INFO - Starting model training...
+2025-06-08 15:17:19,798 - INFO - Dataset config loaded: {'names': ['space-empty', 'space-occupied'], 'nc': 2, 'path': '/teamspace/studios/this_studio/Task1_VehicleDetection/data', 'test': 'test/images', 'train': 'train/images', 'val': 'valid/images'}
+2025-06-08 15:17:19,798 - INFO - Initializing YOLOv8 model: yolov8n.pt
+2025-06-08 15:17:21,359 - INFO - Model loaded successfully
+2025-06-08 15:17:21,499 - INFO - Training arguments: {'data': '/teamspace/studios/this_studio/Task1_VehicleDetection/data/data.yaml', 'epochs': 100, 'imgsz': 640, 'batch': 8, 'lr0': 0.01, 'weight_decay': 0.0005, 'patience': 20, 'save_period': 10, 'device': 'gpu', 'workers': 4, 'project': 'runs/train', 'name': 'parking_detection', 'exist_ok': True, 'resume': False, 'verbose': True}
+2025-06-08 15:48:44,892 - INFO - Starting Parking Space Detection Training
+2025-06-08 15:48:44,893 - INFO - Initialized trainer with model: yolov8n.pt
+2025-06-08 15:48:44,893 - INFO - PyTorch version: 2.7.0+cu128
+2025-06-08 15:48:44,913 - INFO - GPU Available: True
+2025-06-08 15:48:44,929 - INFO - GPU Device: Tesla T4
+2025-06-08 15:48:44,929 - INFO - Starting model training...
+2025-06-08 15:48:44,930 - INFO - Dataset config loaded: {'names': ['space-empty', 'space-occupied'], 'nc': 2, 'path': '/teamspace/studios/this_studio/Task1_VehicleDetection/data', 'test': 'test/images', 'train': 'train/images', 'val': 'valid/images'}
+2025-06-08 15:48:44,931 - INFO - Initializing YOLOv8 model: yolov8n.pt
+2025-06-08 15:48:45,044 - INFO - Model loaded successfully
+2025-06-08 15:48:45,118 - INFO - Training arguments: {'data': '/teamspace/studios/this_studio/Task1_VehicleDetection/data/data.yaml', 'epochs': 10, 'imgsz': 640, 'batch': 8, 'lr0': 0.01, 'weight_decay': 0.0005, 'patience': 20, 'save_period': 10, 'device': 'gpu', 'workers': 4, 'project': 'runs/train', 'name': 'parking_detection', 'exist_ok': True, 'resume': False, 'verbose': True}
+2025-06-08 16:08:56,714 - INFO - Training completed in 1211.60 seconds
+2025-06-08 16:08:56,715 - INFO - Training Results Summary:
+2025-06-08 16:08:56,715 - INFO -   metrics/precision(B): 0.9960
+2025-06-08 16:08:56,715 - INFO -   metrics/recall(B): 0.9900
+2025-06-08 16:08:56,715 - INFO -   metrics/mAP50(B): 0.9943
+2025-06-08 16:08:56,715 - INFO -   metrics/mAP50-95(B): 0.9407
+2025-06-08 16:08:56,715 - INFO -   fitness: 0.9461
+2025-06-08 16:08:56,715 - INFO - Best Fitness Score: 0.0000
+2025-06-08 16:08:56,716 - WARNING - Model performance below threshold (0.5)
+2025-06-08 16:08:56,717 - INFO - Validating model: runs/train/parking_detection/weights/best.pt
+2025-06-08 16:09:24,776 - INFO - Validation completed
+2025-06-08 16:09:24,777 - INFO - Creating training plots...
+2025-06-08 16:09:24,777 - INFO - Training plots saved at: runs/train/parking_detection/results.png
+2025-06-08 16:09:24,778 - INFO - Training pipeline completed successfully!
+2025-06-08 16:09:24,778 - INFO - Best model saved at: runs/train/parking_detection/weights/best.pt
+2025-06-08 16:09:24,778 - INFO - Training completed successfully!
